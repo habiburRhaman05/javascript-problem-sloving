@@ -23,3 +23,5 @@ function nonRepeatingChar(str){
 }
 
 console.log(nonRepeatingChar("rreeacktc"));
+
+
