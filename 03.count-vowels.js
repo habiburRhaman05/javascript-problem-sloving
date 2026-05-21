@@ -10,4 +10,23 @@
 
 function countVowels(str){
     
+    let vowles = ["a","e","i","0","u","A","E","I","O","U"];
+    let count = 0
+
+    
+    for (let i = 0; i < str.length - 1; i++) {
+        const element = str[i];
+
+        if(vowles.includes(element)){
+            count++
+        }
+        
+    }
+
+    return count
+
+
 }
+
+
+console.log(countVowels("bangladesh"));
